@@ -1,0 +1,16 @@
+nav ul li a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 40px;
+}
+body{
+    margin-top: 0px;
+}
+
+nav{
+    background-color: gainsboro;
+}
+
