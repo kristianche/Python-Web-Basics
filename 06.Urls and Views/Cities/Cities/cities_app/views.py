@@ -8,13 +8,13 @@ def index(request):
 
 
 def city_info(request, city_name):
-    cities = models.City.objects.filter(name=city_name).get()
+    city = models.City.objects.filter(name=city_name).get()
 
     context = {
-        'cities': cities
+        'city': city
     }
 
-    return
+    return render(request=request, template_name='cities/cities_info_by_name.html', context=context)
 
 
 def cities_list(request):
