@@ -1,0 +1,1 @@
+For this lection i am going to commit one simple demo for how urls and view work and there will be a simple templates.
