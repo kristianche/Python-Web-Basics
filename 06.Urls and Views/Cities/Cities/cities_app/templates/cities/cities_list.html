@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cities List</title>
+</head>
+<body>
+    <ul style="list-style-type: none">
+        {% for city in cities %}
+        <li style="font-size: 50px">{{ city.name }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
