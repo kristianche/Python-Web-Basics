@@ -1,0 +1,1 @@
+For this lection I am going to commit a simple demo for how templates work. I am also going to include a database(PostgreSQl) views and urls.
