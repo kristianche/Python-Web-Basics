@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+     Football Players
+{% endblock %}
+
+
+{% block content %}
+    <ul style="list-style-type: none">
+        {% for player in players %}
+            <li style="font-size: 50px"><a href="{% url 'player-data' name=player.name %}">{{ player.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+
+

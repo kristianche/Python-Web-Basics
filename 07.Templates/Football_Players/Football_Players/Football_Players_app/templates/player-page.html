@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ player.name }}
+{% endblock %}
+
+{% block content %}
+    <h1>Player ID: {{ player.id }}</h1>
+    <h1>Player Name: {{ player.name }}</h1>
+    <h1>Player Age: {{ player.age }}</h1>
+    <h1>Player Club: {{ player.club }}</h1>
+    <h1>Player Salary: {{ player.salary }}</h1>
+    <h1>Player Position: {{ player.position }}</h1>
+
+{% endblock %}
+
