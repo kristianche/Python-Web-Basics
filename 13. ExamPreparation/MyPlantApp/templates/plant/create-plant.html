@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <!-- create plant form -->
+    <section id="create-page" class="auth">
+        <form action="{% url 'plant-create'%}" method="post" id="create">
+            <div class="container">
+                <h1 class="form-create-headline">Create Plant</h1>
+                {% csrf_token %}
+                {{ form }}
+                <input class="btn" type="submit" value="Create Plant">
+            </div>
+        </form>
+    </section>
+{% endblock %}
